@@ -29,15 +29,3 @@ class PokemonSpider(scrapy.Spider):
 
 		with open('pokemons.json', 'wb') as f:
 			json.dump(arr, f)
-
-			#name = response.css('a.color_dark.bold::text').extract()
-			#preco = response.css('span.bold::text').extract()
-			#link = response.xpath('//a[@class="d_block relative pp_wrap m_bottom_10"]/@href').extract()
-	
-		#for lin in link:
-		#linkCompleto = 'https://www.solosagrado.com.br'+lin
-		
-
-##color_dark bold
-
-##span.bold 
