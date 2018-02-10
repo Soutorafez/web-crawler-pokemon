@@ -23,7 +23,7 @@ class PokemonSpider(scrapy.Spider):
 			arr.append({
 				'name': name.strip(),
 				'preco': preco.strip(),
-				'link': link.strip(),
+				'link': url+link.strip(),
 				'image': img.strip()
 				})
 
